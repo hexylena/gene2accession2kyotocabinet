@@ -37,3 +37,7 @@ real    0m0.015s
 user    0m0.010s
 sys     0m0.005s
 ```
+
+## License
+
+GPLv3

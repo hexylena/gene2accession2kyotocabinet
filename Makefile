@@ -1,4 +1,4 @@
-all: gene2accession.min.tsv
+all: gene2accession.kch
 
 clean:
 	rm gene2accession.min.tsv gene2accession.tsv

@@ -16,7 +16,7 @@ with open('gene2accession.min.tsv', 'r') as handle:
 
         (prot_id, genome_id) = line.strip().split('\t')
 
-        print prot_id, '=>', db.get(prot_id), 'expected ', genome_id
+        print '%10s => %10s' % (prot_id, db.get(prot_id))
 
 if not db.close():
     print >>sys.stderr, "close error: " + str(db.error())
